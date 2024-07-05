@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: Icon(Icons.list),
-        title: Center(child: Text('Berita Pagi')),
+        title: Center(child: Text('Berita Pagi Ini')),
         actions: [
           GestureDetector(
             onTap: () {
